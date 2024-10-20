@@ -1,7 +1,25 @@
+# FIAP - Faculdade de Informática e Administração Paulista
+[![FIAP Logo](images/logo-fiap.png)](https://www.fiap.com.br)
+
+## Fase 3 Cap 10 – Explorando SQL e tipos de dados na Oracle
+[GitHub](https://github.com/pedrosof/Fase3_Cap10)
+
+### Grupo 8
+
+👨‍🎓 **Integrantes**:
+- [Fabio Marcos Pedroso Filho](https://www.linkedin.com/in/pedrosof/)
+
+👩‍🏫 **Professores**:
+
+**Tutor(a)**:
+- [Lucas Gomes Moreira](https://www.linkedin.com/in/lucas-gomes-moreira-15a8452a/)
+
+**Coordenador(a)**:
+- [Andre Godoi, PhD](https://www.linkedin.com/in/profandregodoi/)
+
+---
 
 # Modelo de Banco de Dados Normalizado para Produção Agrícola
-
-[GitHub](https://github.com/pedrosof/Fase3_Cap10)
 
 ## Modelo Entidade-Relacionamento (MER)
 
