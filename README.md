@@ -22,7 +22,7 @@
 # Modelo de Banco de Dados Normalizado para Produção Agrícola
 
 ## Diagrama
-[Diagrama](images/Diagrama.png)
+![Diagrama](images/Diagrama.png)
 
 ## Modelo Entidade-Relacionamento (MER)
 
