@@ -1,6 +1,8 @@
 
 # Modelo de Banco de Dados Normalizado para Produção Agrícola
 
+[GitHub](https://github.com/pedrosof/Fase3_Cap10)
+
 ## Modelo Entidade-Relacionamento (MER)
 
 As entidades principais são **Estados**, **Culturas**, **Produção**, e **Safras**, conectadas pelos seguintes relacionamentos:
