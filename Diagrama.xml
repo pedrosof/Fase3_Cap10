@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- SQL XML created by WWW SQL Designer, https://github.com/ondras/wwwsqldesigner/ -->
+<sql>
+  <datatypes db="mysql">
+    <group label="Numeric" color="rgb(238,238,170)">
+      <type label="INT" length="0" sql="INT" quote=""/>
+      <type label="DOUBLE" length="0" sql="DOUBLE" quote=""/>
+    </group>
+
+    <group label="Character" color="rgb(255,200,200)">
+      <type label="Varchar" length="1" sql="VARCHAR" quote="'"/>
+    </group>
+
+    <group label="Date &amp; Time" color="rgb(200,255,200)">
+      <type label="Datetime" length="0" sql="DATETIME" quote="'"/>
+      <type label="Timestamp" length="0" sql="TIMESTAMP" quote="'"/>
+    </group>
+  </datatypes>
+
+  <table x="100" y="100" name="Estado">
+    <row name="ID_Estado" null="0" autoincrement="1">
+      <datatype>INT</datatype>
+      <default>NULL</default>
+    </row>
+    <row name="Nome_Estado" null="0" autoincrement="0">
+      <datatype>VARCHAR(100)</datatype>
+      <default>'NULL'</default>
+    </row>
+    <key type="PRIMARY" name="">
+      <part>ID_Estado</part>
+    </key>
+  </table>
+
+  <table x="300" y="100" name="Cultura">
+    <row name="ID_Cultura" null="0" autoincrement="1">
+      <datatype>INT</datatype>
+      <default>NULL</default>
+    </row>
+    <row name="Nome_Cultura" null="0" autoincrement="0">
+      <datatype>VARCHAR(100)</datatype>
+      <default>'NULL'</default>
+    </row>
+    <key type="PRIMARY" name="">
+      <part>ID_Cultura</part>
+    </key>
+  </table>
+
+  <table x="500" y="100" name="Safra">
+    <row name="ID_Safra" null="0" autoincrement="1">
+      <datatype>INT</datatype>
+      <default>NULL</default>
+    </row>
+    <row name="Ano_Safra" null="0" autoincrement="0">
+      <datatype>DATETIME</datatype>
+      <default>'NULL'</default>
+    </row>
+    <key type="PRIMARY" name="">
+      <part>ID_Safra</part>
+    </key>
+  </table>
+
+  <table x="700" y="100" name="Produção">
+    <row name="ID_Produção" null="0" autoincrement="1">
+      <datatype>INT</datatype>
+      <default>NULL</default>
+    </row>
+    <row name="Produção" null="0" autoincrement="0">
+      <datatype>DOUBLE</datatype>
+      <default>NULL</default>
+    </row>
+    <row name="Área_Plantada" null="0" autoincrement="0">
+      <datatype>DOUBLE</datatype>
+      <default>NULL</default>
+    </row>
+    <row name="Área_Colhida" null="0" autoincrement="0">
+      <datatype>DOUBLE</datatype>
+      <default>NULL</default>
+    </row>
+    <row name="Produtividade" null="0" autoincrement="0">
+      <datatype>DOUBLE</datatype>
+      <default>NULL</default>
+    </row>
+    <row name="ID_Estado" null="0" autoincrement="0">
+      <datatype>INT</datatype>
+      <default>NULL</default>
+      <relation table="Estado" row="ID_Estado" />
+    </row>
+    <row name="ID_Cultura" null="0" autoincrement="0">
+      <datatype>INT</datatype>
+      <default>NULL</default>
+      <relation table="Cultura" row="ID_Cultura" />
+    </row>
+    <row name="ID_Safra" null="0" autoincrement="0">
+      <datatype>INT</datatype>
+      <default>NULL</default>
+      <relation table="Safra" row="ID_Safra" />
+    </row>
+    <key type="PRIMARY" name="">
+      <part>ID_Produção</part>
+    </key>
+  </table>
+</sql>
